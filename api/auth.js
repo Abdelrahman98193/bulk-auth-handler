@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const clientId = "Ov23lil43WU1kZ9OSaEy";
+  const clientId = "Ov23liI43WU1kZ9OSaEy";
   const host = req.headers.host;
   const redirectUri = `https://${host}/api/callback`;
 
