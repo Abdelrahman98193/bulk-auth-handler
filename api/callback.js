@@ -5,8 +5,8 @@ export default async function handler(req, res) {
     return res.status(400).send('No code provided');
   }
 
-  const clientId = "Ov23lil43WU1kZ9OSaEy";
-  const clientSecret = "4ewe093ew8";
+  const clientId = "Ov23lioUhah1ZHbeMXIY";
+  const clientSecret = "442faf58c521aeb54a87e5c041eacdfcd6ea0b50";
 
   try {
     const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
